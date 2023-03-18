@@ -1,0 +1,62 @@
+/* Css para la tarjeta */
+
+.advice-card {
+    max-width: 450px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--Grayish-Blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 10px;
+    margin-bottom: 35px;
+}
+
+.title-advice {
+    color: var(--Neon-Green);
+    /* padding: 8px; */
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+q {
+    color: var(--Light-Cyan);
+    padding: 10px 0;
+    text-align: center;
+    font-size: var(--Font-size-quote);
+    padding: 35px 0;
+    font-weight: 800;
+}
+
+.divider-advice img {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.advice-bottom {
+    width: 50px;
+    height: 50px;
+    background-color: var(--Neon-Green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -50px;
+    cursor: pointer;
+}
+
+.advice-bottom:hover {
+    box-shadow: 5px -5px 15px 7px rgba(82,255,168,0.75);
+    box-shadow: -5px 5px 15px 7px rgba(82,255,168,0.75);
+
+}
+
+.buttom {}
+
+@media (max-width: 500px) {
+    .advice-card {
+        max-width: 95%;
+    }
+}
